@@ -3,7 +3,7 @@
   <div class="dashboard-header">
     <div class="welcome-section">
       <h1>{{ getWelcomeMessage() }}</h1>
-      <p class="current-date">{{ new Date() | date:'fullDate' }}</p>
+      <p class="current-date">{{ currentDate | date:'fullDate' }}</p>
     </div>
     <div class="header-actions">
       <button class="btn btn-outline" (click)="logout()">
