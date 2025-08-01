@@ -1,0 +1,146 @@
+<div class="booking-container">
+  <div class="booking-header">
+    <h1>Book Tickets</h1>
+    <p>Reserve your spot for this amazing event</p>
+  </div>
+
+  <div *ngIf="isLoadingEvent" class="loading">
+    <div class="spinner"></div>
+    <p>Loading event details...</p>
+  </div>
+
+  <div *ngIf="errorMessage && !event" class="error-message">
+    {{ errorMessage }}
+    <button class="btn-secondary" routerLink="/events">Back to Events</button>
+  </div>
+
+  <div *ngIf="event && !isLoadingEvent" class="booking-content">
+    <!-- Event Summary -->
+    <div class="event-summary-card">
+      <div class="event-summary-header">
+        <h2>{{ event.title }}</h2>
+        <span class="event-id">#{{ event.id }}</span>
+      </div>
+      
+      <div class="event-summary-details">
+        <div class="detail-row">
+          <span class="label">📅 Date:</span>
+          <span class="value">{{ formatDate(event.startDate) }}</span>
+        </div>
+        
+        <div class="detail-row">
+          <span class="label">⏰ Duration:</span>
+          <span class="value">{{ formatDate(event.startDate) }} - {{ formatDate(event.endDate) }}</span>
+        </div>
+        
+        <div class="detail-row">
+          <span class="label">📍 Venue:</span>
+          <span class="value">{{ event.location.name }}</span>
+        </div>
+        
+        <div class="detail-row">
+          <span class="label">🏢 Address:</span>
+          <span class="value">{{ event.location.address }}</span>
+        </div>
+        
+        <div class="detail-row">
+          <span class="label">👤 Organizer:</span>
+          <span class="value">{{ event.organizerName }}</span>
+        </div>
+      </div>
+
+      <div *ngIf="event.description" class="event-description">
+        <h4>About this event</h4>
+        <p>{{ event.description }}</p>
+      </div>
+    </div>
+
+    <!-- Booking Form -->
+    <div class="booking-form-card">
+      <h3>Ticket Booking</h3>
+      
+      <div *ngIf="errorMessage && event" class="error-message">
+        {{ errorMessage }}
+      </div>
+
+      <form *ngIf="!errorMessage" [formGroup]="bookingForm" (ngSubmit)="onSubmit()" class="booking-form">
+        <div class="form-group">
+          <label for="numberOfTickets">Number of Tickets</label>
+          <select
+            id="numberOfTickets"
+            formControlName="numberOfTickets"
+            class="form-control"
+            [class.error]="numberOfTickets?.invalid && numberOfTickets?.touched"
+          >
+            <option value="1">1 Ticket</option>
+            <option value="2">2 Tickets</option>
+            <option value="3">3 Tickets</option>
+            <option value="4">4 Tickets</option>
+            <option value="5">5 Tickets</option>
+            <option value="6">6 Tickets</option>
+            <option value="7">7 Tickets</option>
+            <option value="8">8 Tickets</option>
+            <option value="9">9 Tickets</option>
+            <option value="10">10 Tickets</option>
+          </select>
+          <div class="error-message" *ngIf="numberOfTickets?.invalid && numberOfTickets?.touched">
+            <span *ngIf="numberOfTickets?.errors?.['required']">Please select number of tickets</span>
+            <span *ngIf="numberOfTickets?.errors?.['min']">Minimum 1 ticket required</span>
+            <span *ngIf="numberOfTickets?.errors?.['max']">Maximum 10 tickets allowed</span>
+          </div>
+        </div>
+
+        <!-- Pricing Summary -->
+        <div class="pricing-summary">
+          <div class="pricing-row">
+            <span>Ticket Price:</span>
+            <span>${{ calculateTotal() / (+bookingForm.value.numberOfTickets || 1) | number:'1.2-2' }} each</span>
+          </div>
+          <div class="pricing-row">
+            <span>Quantity:</span>
+            <span>{{ bookingForm.value.numberOfTickets || 1 }}</span>
+          </div>
+          <div class="pricing-row total">
+            <span>Total Amount:</span>
+            <span>${{ calculateTotal() | number:'1.2-2' }}</span>
+          </div>
+        </div>
+
+        <div class="success-message" *ngIf="successMessage">
+          {{ successMessage }}
+        </div>
+
+        <div class="booking-actions">
+          <button
+            type="submit"
+            class="btn-primary"
+            [disabled]="isLoading || !!errorMessage"
+          >
+            <span *ngIf="isLoading" class="spinner"></span>
+            {{ isLoading ? 'Booking...' : 'Book Tickets' }}
+          </button>
+          
+          <button
+            type="button"
+            class="btn-secondary"
+            [routerLink]="['/events', event.id]"
+          >
+            Back to Event
+          </button>
+        </div>
+      </form>
+
+      <!-- Booking Terms -->
+      <div class="booking-terms">
+        <h4>Booking Terms</h4>
+        <ul>
+          <li>Tickets are non-refundable once booked</li>
+          <li>Please arrive 15 minutes before the event starts</li>
+          <li>Bring a valid ID for verification</li>
+          <li>Maximum 10 tickets per booking</li>
+          <li>Ticket confirmation will be sent to your email</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

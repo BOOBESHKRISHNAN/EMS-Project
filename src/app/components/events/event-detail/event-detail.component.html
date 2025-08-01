@@ -1,0 +1,190 @@
+<div class="event-detail-container">
+  <div *ngIf="isLoading" class="loading">
+    <div class="spinner"></div>
+    <p>Loading event details...</p>
+  </div>
+
+  <div *ngIf="errorMessage && !event" class="error-message">
+    {{ errorMessage }}
+    <button class="btn-secondary" routerLink="/events">Back to Events</button>
+  </div>
+
+  <div *ngIf="event && !isLoading" class="event-detail">
+    <!-- Event Header -->
+    <div class="event-header">
+      <div class="event-title-section">
+        <h1>{{ event.title }}</h1>
+        <span class="event-id">#{{ event.id }}</span>
+      </div>
+      
+      <div class="event-actions">
+        <button *ngIf="canBookTicket()" 
+                class="btn-success" 
+                (click)="bookTicket()">
+          Book Ticket
+        </button>
+        
+        <button *ngIf="canEditEvent()" 
+                class="btn-warning" 
+                (click)="editEvent()">
+          Edit Event
+        </button>
+        
+        <button *ngIf="canDeleteEvent()" 
+                class="btn-danger" 
+                (click)="deleteEvent()">
+          Delete Event
+        </button>
+        
+        <button class="btn-secondary" routerLink="/events">
+          Back to Events
+        </button>
+      </div>
+    </div>
+
+    <!-- Event Information -->
+    <div class="event-content">
+      <div class="event-main-info">
+        <div class="event-description" *ngIf="event.description">
+          <h3>Description</h3>
+          <p>{{ event.description }}</p>
+        </div>
+
+        <div class="event-details-grid">
+          <div class="detail-card">
+            <h4>📅 Event Dates</h4>
+            <div class="detail-content">
+              <p><strong>Start:</strong> {{ formatDate(event.startDate) }}</p>
+              <p><strong>End:</strong> {{ formatDate(event.endDate) }}</p>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <h4>📍 Location</h4>
+            <div class="detail-content">
+              <p><strong>Venue:</strong> {{ event.location.name }}</p>
+              <p><strong>Address:</strong> {{ event.location.address }}</p>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <h4>👤 Organizer</h4>
+            <div class="detail-content">
+              <p>{{ event.organizerName }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feedback Section -->
+      <div class="feedback-section">
+        <div class="feedback-header">
+          <h3>Event Feedback</h3>
+          <button *ngIf="canLeaveFeedback() && !showFeedbackForm" 
+                  class="btn-primary" 
+                  (click)="toggleFeedbackForm()">
+            Leave Feedback
+          </button>
+        </div>
+
+        <!-- Feedback Form -->
+        <div *ngIf="showFeedbackForm" class="feedback-form-container">
+          <form [formGroup]="feedbackForm" (ngSubmit)="submitFeedback()" class="feedback-form">
+            <div class="form-group">
+              <label for="rating">Rating (1-5 stars)</label>
+              <select id="rating" formControlName="rating" class="form-control" 
+                      [class.error]="rating?.invalid && rating?.touched">
+                <option value="">Select a rating</option>
+                <option value="1">1 Star - Poor</option>
+                <option value="2">2 Stars - Fair</option>
+                <option value="3">3 Stars - Good</option>
+                <option value="4">4 Stars - Very Good</option>
+                <option value="5">5 Stars - Excellent</option>
+              </select>
+              <div class="error-message" *ngIf="rating?.invalid && rating?.touched">
+                <span *ngIf="rating?.errors?.['required']">Rating is required</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="comment">Comment (Optional)</label>
+              <textarea id="comment" 
+                        formControlName="comment" 
+                        class="form-control" 
+                        rows="4" 
+                        placeholder="Share your experience..."
+                        [class.error]="comment?.invalid && comment?.touched">
+              </textarea>
+              <div class="error-message" *ngIf="comment?.invalid && comment?.touched">
+                <span *ngIf="comment?.errors?.['maxlength']">Comment must be less than 500 characters</span>
+              </div>
+            </div>
+
+            <div class="success-message" *ngIf="successMessage">
+              {{ successMessage }}
+            </div>
+
+            <div class="error-message" *ngIf="errorMessage">
+              {{ errorMessage }}
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" 
+                      class="btn-primary" 
+                      [disabled]="isSubmittingFeedback">
+                <span *ngIf="isSubmittingFeedback" class="spinner"></span>
+                {{ isSubmittingFeedback ? 'Submitting...' : 'Submit Feedback' }}
+              </button>
+              
+              <button type="button" 
+                      class="btn-secondary" 
+                      (click)="toggleFeedbackForm()">
+                Cancel
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Feedback Summary -->
+        <div *ngIf="feedbackSummary && feedbackSummary.totalFeedbacks > 0" class="feedback-summary">
+          <div class="rating-overview">
+            <div class="average-rating">
+              <span class="rating-number">{{ feedbackSummary.averageRating | number:'1.1-1' }}</span>
+              <div class="stars">
+                <span *ngFor="let star of getStarArray(feedbackSummary.averageRating)" 
+                      class="star" 
+                      [class.filled]="star <= feedbackSummary.averageRating">
+                  ★
+                </span>
+              </div>
+              <span class="total-reviews">({{ feedbackSummary.totalFeedbacks }} reviews)</span>
+            </div>
+          </div>
+
+          <div class="feedback-list">
+            <div *ngFor="let feedback of feedbackSummary.feedbacks" class="feedback-item">
+              <div class="feedback-header-item">
+                <div class="user-info">
+                  <strong>{{ feedback.userName }}</strong>
+                  <div class="stars">
+                    <span *ngFor="let star of getStarArray(feedback.rating)" 
+                          class="star small" 
+                          [class.filled]="star <= feedback.rating">
+                      ★
+                    </span>
+                  </div>
+                </div>
+                <span class="feedback-date">{{ formatDate(feedback.createdAt) }}</span>
+              </div>
+              <p *ngIf="feedback.comment" class="feedback-comment">{{ feedback.comment }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="feedbackSummary && feedbackSummary.totalFeedbacks === 0" class="no-feedback">
+          <p>No feedback yet. Be the first to leave a review!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
