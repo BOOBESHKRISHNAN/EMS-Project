@@ -21,6 +21,7 @@ export class DashboardComponent implements OnInit {
   locations: LocationWithEventsDto[] = [];
   loading = true;
   error: string | null = null;
+  currentDate = new Date();
 
   // Role enum for template access
   UserRole = UserRole;
