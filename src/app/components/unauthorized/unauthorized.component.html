@@ -1,0 +1,143 @@
+<div class="unauthorized-container">
+  <div class="unauthorized-content">
+    
+    <!-- Error Icon and Status -->
+    <div class="error-header">
+      <div class="error-icon">
+        <i [class]="getErrorIcon()"></i>
+      </div>
+      <div class="error-status">
+        <h1>Access Denied</h1>
+        <div class="error-code">Error 403</div>
+      </div>
+    </div>
+
+    <!-- Error Message -->
+    <div class="error-message">
+      <h2>{{ getErrorMessage() }}</h2>
+      <p class="error-description">
+        {{ getSuggestionMessage() }}
+      </p>
+    </div>
+
+    <!-- User Information (if logged in) -->
+    <div *ngIf="currentUser" class="user-info">
+      <div class="info-card">
+        <h3><i class="fas fa-user"></i> Current User Information</h3>
+        <div class="user-details">
+          <div class="detail-item">
+            <span class="label">Name:</span>
+            <span class="value">{{ currentUser.firstName }} {{ currentUser.lastName }}</span>
+          </div>
+          <div class="detail-item">
+            <span class="label">Email:</span>
+            <span class="value">{{ currentUser.email }}</span>
+          </div>
+          <div class="detail-item">
+            <span class="label">Role:</span>
+            <span class="value role-badge" [ngClass]="'role-' + currentUser.role.toLowerCase()">
+              {{ getCurrentUserRoleDisplay() }}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Access Requirements (if available) -->
+    <div *ngIf="requiredRoles.length > 0" class="access-requirements">
+      <div class="info-card">
+        <h3><i class="fas fa-key"></i> Required Permissions</h3>
+        <p>To access {{ getRouteDisplayName() }}, you need one of the following roles:</p>
+        <ul class="roles-list">
+          <li *ngFor="let role of requiredRoles" class="role-item">
+            <span class="role-badge" [ngClass]="'role-' + role.toLowerCase()">
+              {{ getUserRoleDisplayName(role) }}
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Route Information (if available) -->
+    <div *ngIf="attemptedRoute" class="route-info">
+      <div class="info-card">
+        <h3><i class="fas fa-route"></i> Attempted Access</h3>
+        <div class="route-details">
+          <div class="detail-item">
+            <span class="label">Page:</span>
+            <span class="value">{{ getRouteDisplayName() }}</span>
+          </div>
+          <div class="detail-item">
+            <span class="label">Path:</span>
+            <span class="value route-path">{{ attemptedRoute }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="action-buttons">
+      
+      <!-- Login Button (for unauthenticated users) -->
+      <button *ngIf="!currentUser" class="btn btn-primary" (click)="goToLogin()">
+        <i class="fas fa-sign-in-alt"></i>
+        Log In
+      </button>
+
+      <!-- Dashboard Button (for authenticated users) -->
+      <button *ngIf="canAccessDashboard()" class="btn btn-primary" (click)="goToDashboard()">
+        <i class="fas fa-tachometer-alt"></i>
+        Go to Dashboard
+      </button>
+
+      <!-- Go Back Button -->
+      <button class="btn btn-secondary" (click)="goBack()">
+        <i class="fas fa-arrow-left"></i>
+        Go Back
+      </button>
+
+      <!-- Home Button -->
+      <button class="btn btn-outline" (click)="goToHome()">
+        <i class="fas fa-home"></i>
+        Home
+      </button>
+
+    </div>
+
+    <!-- Help Section -->
+    <div class="help-section">
+      <div class="help-card">
+        <h3><i class="fas fa-question-circle"></i> Need Help?</h3>
+        <div class="help-content">
+          <div class="help-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Contact Support</strong>
+              <p>If you believe this is an error, please contact your system administrator.</p>
+            </div>
+          </div>
+          <div class="help-item">
+            <i class="fas fa-book"></i>
+            <div>
+              <strong>Learn More</strong>
+              <p>Check the user guide for information about user roles and permissions.</p>
+            </div>
+          </div>
+          <div class="help-item">
+            <i class="fas fa-user-cog"></i>
+            <div>
+              <strong>Account Issues</strong>
+              <p>If you need different permissions, contact your administrator to update your account.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="error-footer">
+      <p>&copy; {{ new Date().getFullYear() }} Event Management System. All rights reserved.</p>
+    </div>
+
+  </div>
+</div>
