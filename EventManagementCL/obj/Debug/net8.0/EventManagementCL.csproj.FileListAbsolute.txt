@@ -1,0 +1,154 @@
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.AssemblyReference.cache
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfoInputs.cache
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfo.cs
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.CoreCompileInputs.cache
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.deps.json
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.runtimeconfig.json
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\obj\Debug\net8.0\refint\EventManagementCL.dll
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.genruntimeconfig.cache
+C:\Users\2417921\source\repos\EventManagementCL\EventManagementCL\obj\Debug\net8.0\ref\EventManagementCL.dll
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.deps.json
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.runtimeconfig.json
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.AssemblyReference.cache
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfoInputs.cache
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfo.cs
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.CoreCompileInputs.cache
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\refint\EventManagementCL.dll
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.genruntimeconfig.cache
+C:\Users\2417893\Downloads\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\ref\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.deps.json
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.runtimeconfig.json
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.AssemblyReference.cache
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfoInputs.cache
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfo.cs
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.CoreCompileInputs.cache
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\refint\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.genruntimeconfig.cache
+C:\Users\2417933\Downloads\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\ref\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.deps.json
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.runtimeconfig.json
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.AssemblyReference.cache
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfoInputs.cache
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfo.cs
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.CoreCompileInputs.cache
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\refint\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.genruntimeconfig.cache
+C:\Users\2417933\Downloads\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\ref\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.deps.json
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.runtimeconfig.json
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.AssemblyReference.cache
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfoInputs.cache
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfo.cs
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.CoreCompileInputs.cache
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\refint\EventManagementCL.dll
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.genruntimeconfig.cache
+C:\Users\2417933\Downloads\EventManagementCL (08-07-25)\EventManagementCL (3)\EventManagementCL (2)\EventManagementCL (2)\EventManagementCL\EventManagementCL\obj\Debug\net8.0\ref\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.deps.json
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.runtimeconfig.json
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.AssemblyReference.cache
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfoInputs.cache
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfo.cs
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.CoreCompileInputs.cache
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\refint\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.genruntimeconfig.cache
+C:\Users\2417893\Downloads\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\ref\EventManagementCL.dll
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.AssemblyReference.cache
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfoInputs.cache
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfo.cs
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.CoreCompileInputs.cache
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\refint\EventManagementCL.dll
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.deps.json
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.runtimeconfig.json
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.genruntimeconfig.cache
+C:\Users\2417816\Downloads\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\ref\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.deps.json
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.runtimeconfig.json
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.AssemblyReference.cache
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfoInputs.cache
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfo.cs
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.CoreCompileInputs.cache
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\refint\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.genruntimeconfig.cache
+C:\Users\2417893\Downloads\EMS_FINAL_upd\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\ref\EventManagementCL.dll
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.deps.json
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.runtimeconfig.json
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.AssemblyReference.cache
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfoInputs.cache
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfo.cs
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.CoreCompileInputs.cache
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\refint\EventManagementCL.dll
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.genruntimeconfig.cache
+C:\Users\2417816\Downloads\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\ref\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.deps.json
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.runtimeconfig.json
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.AssemblyReference.cache
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfoInputs.cache
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfo.cs
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.CoreCompileInputs.cache
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\refint\EventManagementCL.dll
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.genruntimeconfig.cache
+C:\Users\2417893\Downloads\EMS_Final_new\EMS_FINAL_boobesh\EMS_FINAL_upd2\EMS_FINAL (2)\EMS_FINAL\EMS_FINAL\EventManagementCL\obj\Debug\net8.0\ref\EventManagementCL.dll
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.deps.json
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.runtimeconfig.json
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\bin\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.AssemblyReference.cache
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfoInputs.cache
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.AssemblyInfo.cs
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.csproj.CoreCompileInputs.cache
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.dll
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\obj\Debug\net8.0\refint\EventManagementCL.dll
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.pdb
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\obj\Debug\net8.0\EventManagementCL.genruntimeconfig.cache
+C:\Users\2417893\Desktop\EMS_SYSTEM_FINAL\EventManagementCL\obj\Debug\net8.0\ref\EventManagementCL.dll
