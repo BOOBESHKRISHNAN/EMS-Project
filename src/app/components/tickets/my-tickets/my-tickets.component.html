@@ -1,0 +1,124 @@
+<div class="my-tickets-container">
+  <div class="tickets-header">
+    <h1>My Tickets</h1>
+    <p>Manage your event tickets</p>
+  </div>
+
+  <div *ngIf="isLoading" class="loading">
+    <div class="spinner"></div>
+    <p>Loading your tickets...</p>
+  </div>
+
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+
+  <div *ngIf="successMessage" class="success-message">
+    {{ successMessage }}
+  </div>
+
+  <div *ngIf="!isLoading && tickets.length === 0 && !errorMessage" class="no-tickets">
+    <div class="no-tickets-content">
+      <h3>No Tickets Found</h3>
+      <p>You haven't booked any tickets yet.</p>
+      <button class="btn-primary" routerLink="/events">Browse Events</button>
+    </div>
+  </div>
+
+  <div *ngIf="!isLoading && tickets.length > 0" class="tickets-content">
+    <!-- Active Tickets -->
+    <div *ngIf="getActiveTickets().length > 0" class="tickets-section">
+      <h2>Active Tickets ({{ getActiveTickets().length }})</h2>
+      
+      <div class="tickets-grid">
+        <div *ngFor="let ticket of getActiveTickets()" class="ticket-card">
+          <div class="ticket-header">
+            <div class="ticket-info">
+              <h3>{{ ticket.eventName }}</h3>
+              <span class="ticket-id">Ticket #{{ ticket.ticketID }}</span>
+            </div>
+            <span class="status-badge" [class]="getStatusClass(ticket.status)">
+              {{ ticket.status }}
+            </span>
+          </div>
+
+          <div class="ticket-details">
+            <div class="detail-item">
+              <span class="label">📅 Booked On:</span>
+              <span class="value">{{ formatDate(ticket.bookingDate.toString()) }}</span>
+            </div>
+            
+            <div class="detail-item">
+              <span class="label">🎫 Status:</span>
+              <span class="value">{{ ticket.status }}</span>
+            </div>
+          </div>
+
+          <div class="ticket-actions">
+            <button 
+              *ngIf="canCancelTicket(ticket)"
+              class="btn-danger"
+              (click)="cancelTicket(ticket.ticketID)">
+              Cancel Ticket
+            </button>
+            
+            <span *ngIf="!canCancelTicket(ticket)" class="action-note">
+              Cannot be cancelled
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cancelled Tickets -->
+    <div *ngIf="getCancelledTickets().length > 0" class="tickets-section">
+      <h2>Cancelled Tickets ({{ getCancelledTickets().length }})</h2>
+      
+      <div class="tickets-grid">
+        <div *ngFor="let ticket of getCancelledTickets()" class="ticket-card cancelled">
+          <div class="ticket-header">
+            <div class="ticket-info">
+              <h3>{{ ticket.eventName }}</h3>
+              <span class="ticket-id">Ticket #{{ ticket.ticketID }}</span>
+            </div>
+            <span class="status-badge" [class]="getStatusClass(ticket.status)">
+              {{ ticket.status }}
+            </span>
+          </div>
+
+          <div class="ticket-details">
+            <div class="detail-item">
+              <span class="label">📅 Originally Booked:</span>
+              <span class="value">{{ formatDate(ticket.bookingDate.toString()) }}</span>
+            </div>
+            
+            <div class="detail-item">
+              <span class="label">🎫 Status:</span>
+              <span class="value">{{ ticket.status }}</span>
+            </div>
+          </div>
+
+          <div class="ticket-actions">
+            <span class="action-note">Ticket Cancelled</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="quick-actions">
+      <h3>Quick Actions</h3>
+      <div class="actions-grid">
+        <button class="action-btn" routerLink="/events">
+          <span class="icon">🎭</span>
+          <span class="text">Browse More Events</span>
+        </button>
+        
+        <button class="action-btn" routerLink="/dashboard">
+          <span class="icon">🏠</span>
+          <span class="text">Go to Dashboard</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
