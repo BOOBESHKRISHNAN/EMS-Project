@@ -21,6 +21,7 @@ export class DashboardComponent implements OnInit {
   locations: LocationWithEventsDto[] = [];
   loading = true;
   error: string | null = null;
+  currentDate = new Date();
 
   // Role enum for template access
   UserRole = UserRole;
@@ -139,8 +140,9 @@ export class DashboardComponent implements OnInit {
     return this.authService.hasRole(UserRole.RegisteredUser);
   }
 
-  formatDate(dateString: string): string {
-    return new Date(dateString).toLocaleDateString();
+  formatDate(date: string | Date): string {
+    if (!date) return '';
+    return new Date(date).toLocaleDateString();
   }
 
   getWelcomeMessage(): string {
