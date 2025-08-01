@@ -1,0 +1,101 @@
+<div class="event-list-container">
+  <div class="header">
+    <h1>Events</h1>
+    <button 
+      *ngIf="canEditEvent()" 
+      class="btn-primary" 
+      routerLink="/events/create"
+    >
+      Create New Event
+    </button>
+  </div>
+
+  <div *ngIf="isLoading" class="loading">
+    <div class="spinner"></div>
+    <p>Loading events...</p>
+  </div>
+
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+
+  <div *ngIf="!isLoading && events.length === 0 && !errorMessage" class="no-events">
+    <h3>No events found</h3>
+    <p>There are currently no events available.</p>
+  </div>
+
+  <div *ngIf="!isLoading && events.length > 0" class="events-grid">
+    <div *ngFor="let event of events" class="event-card">
+      <div class="event-header">
+        <h3>{{ event.title }}</h3>
+        <span class="event-id">#{{ event.id }}</span>
+      </div>
+
+      <div class="event-details">
+        <p class="description" *ngIf="event.description">
+          {{ event.description }}
+        </p>
+        
+        <div class="event-info">
+          <div class="info-item">
+            <span class="label">Start:</span>
+            <span class="value">{{ formatDate(event.startDate) }}</span>
+          </div>
+          
+          <div class="info-item">
+            <span class="label">End:</span>
+            <span class="value">{{ formatDate(event.endDate) }}</span>
+          </div>
+          
+          <div class="info-item">
+            <span class="label">Location:</span>
+            <span class="value">{{ event.location.name }}</span>
+          </div>
+          
+          <div class="info-item">
+            <span class="label">Address:</span>
+            <span class="value">{{ event.location.address }}</span>
+          </div>
+          
+          <div class="info-item">
+            <span class="label">Organizer:</span>
+            <span class="value">{{ event.organizerName }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="event-actions">
+        <button 
+          class="btn-secondary" 
+          (click)="viewEvent(event.id)"
+        >
+          View Details
+        </button>
+        
+        <button 
+          *ngIf="canBookTicket()" 
+          class="btn-success" 
+          (click)="bookTicket(event.id)"
+        >
+          Book Ticket
+        </button>
+        
+        <button 
+          *ngIf="canEditEvent()" 
+          class="btn-warning" 
+          (click)="editEvent(event.id)"
+        >
+          Edit
+        </button>
+        
+        <button 
+          *ngIf="canDeleteEvent()" 
+          class="btn-danger" 
+          (click)="deleteEvent(event.id)"
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
