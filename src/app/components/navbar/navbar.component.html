@@ -1,0 +1,64 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <!-- Logo/Brand -->
+    <div class="navbar-brand" (click)="navigateTo('/dashboard')">
+      <i class="fas fa-calendar-alt"></i>
+      <span>Event Manager</span>
+    </div>
+
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-btn" (click)="toggleMenu()" [class.active]="isMenuOpen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="navbar-menu" [class.active]="isMenuOpen">
+      <div class="navbar-nav">
+        <a class="nav-link" 
+           [class.active]="isActive('/dashboard')"
+           (click)="navigateTo('/dashboard')">
+          <i class="fas fa-tachometer-alt"></i>
+          Dashboard
+        </a>
+        
+        <a class="nav-link" 
+           [class.active]="isActive('/events')"
+           (click)="navigateTo('/events')">
+          <i class="fas fa-calendar"></i>
+          Events
+        </a>
+        
+        <a class="nav-link" 
+           [class.active]="isActive('/my-tickets')"
+           (click)="navigateTo('/my-tickets')">
+          <i class="fas fa-ticket-alt"></i>
+          My Tickets
+        </a>
+        
+        <div class="nav-link" 
+             *ngIf="currentUser?.role === 'Admin'"
+             [class.active]="isActive('/locations')"
+             (click)="navigateTo('/locations')">
+          <i class="fas fa-map-marker-alt"></i>
+          Locations
+        </div>
+      </div>
+
+      <!-- User Menu -->
+      <div class="navbar-user">
+        <div class="user-info">
+          <i class="fas fa-user-circle"></i>
+          <span class="username">{{ currentUser?.name || currentUser?.email }}</span>
+          <span class="user-role" *ngIf="currentUser?.role">({{ currentUser.role }})</span>
+        </div>
+        
+        <button class="logout-btn" (click)="logout()">
+          <i class="fas fa-sign-out-alt"></i>
+          Logout
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>

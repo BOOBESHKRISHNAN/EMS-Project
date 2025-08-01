@@ -12,6 +12,7 @@ export class UnauthorizedComponent implements OnInit {
   currentUser: User | null = null;
   attemptedRoute: string | null = null;
   requiredRoles: UserRole[] = [];
+  currentYear = new Date().getFullYear();
   
   // Role enum for template access
   UserRole = UserRole;

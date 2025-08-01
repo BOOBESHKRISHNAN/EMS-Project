@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var UserRole = /*#__PURE__*/function (UserRole) {\n  UserRole[\"SuperAdmin\"] = \"SuperAdmin\";\n  UserRole[\"Admin\"] = \"Admin\";\n  UserRole[\"Organizer\"] = \"Organizer\";\n  UserRole[\"RegisteredUser\"] = \"RegisteredUser\";\n  return UserRole;\n}(UserRole || {});","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

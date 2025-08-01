@@ -3,7 +3,7 @@
   <div class="dashboard-header">
     <div class="welcome-section">
       <h1>{{ getWelcomeMessage() }}</h1>
-      <p class="current-date">{{ new Date() | date:'fullDate' }}</p>
+      <p class="current-date">{{ currentDate | date:'fullDate' }}</p>
     </div>
     <div class="header-actions">
       <button class="btn btn-outline" (click)="logout()">
@@ -127,17 +127,17 @@
           </div>
           <div *ngFor="let ticket of myTickets" class="ticket-item">
             <div class="ticket-info">
-              <h4>{{ ticket.eventTitle }}</h4>
+              <h4>{{ ticket.eventName }}</h4>
               <p class="ticket-date">
                 <i class="fas fa-calendar"></i>
-                {{ formatDate(ticket.eventDate) }}
+                {{ formatDate(ticket.bookingDate) }}
               </p>
               <div class="ticket-status" [ngClass]="'status-' + ticket.status.toLowerCase()">
                 {{ ticket.status }}
               </div>
             </div>
             <div class="ticket-details">
-              <span class="ticket-price">${{ ticket.ticketPrice }}</span>
+              <span class="ticket-id">Ticket #{{ ticket.ticketID }}</span>
             </div>
           </div>
         </div>
